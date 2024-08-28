@@ -1,0 +1,169 @@
+/** Default settings **/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+body{
+  background-color: #e6e5e5;
+}
+
+.mainContainer{
+  background-color: #fff;
+  margin: 5% 20%;
+  padding: 2%;
+}
+h2{
+  color:#FF6B82;
+  font-weight: bold;
+  text-align: center;
+  margin: 1.25rem 0;
+}
+
+section{
+  margin: 5% 15%;
+}
+
+.box{
+  box-shadow: 0px 0px 4px 0px #A7A7A740;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  margin: 5% 0;
+}
+.inner{
+  text-align: center;
+  font-size: large;
+}
+.whiteText{
+  color: #fff;
+  background-color: #FF6B82;
+  width: 20%;
+  padding: 1.25rem;
+  border-radius: 12px 0px 0px 12px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+#dashedLine{
+  border-left: 1px dashed #b33a4c;
+}
+.blackText{
+  width: 40%;
+  padding: 0.9rem;
+  line-height: 1.5rem;
+}
+.pinkText{
+  color: #FF6B82;
+  align-self: center;
+}
+.boxOpen{
+  padding: 1.25rem;
+  border : 1px solid #FF6B82;
+  display: none;
+}
+.bold{
+  font-weight: 1000;
+}
+.small1{
+  color: #fff;
+  background-color: #FF6B82;
+  padding: 3px;
+  border-radius: 4px;
+  font-size: small; 
+}
+.small2{
+  color: #9F9F9F;
+  font-size: small; 
+}
+
+
+.form__radio-label {
+  cursor: pointer;
+  position: relative;
+  padding-left: 2rem; 
+}
+.form__radio-button {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  border: 1px solid #FF6B82;
+  display: inline-block;
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem; 
+}
+.form__radio-button::after {
+  content: "";
+  display: block;
+  height: 0.7rem;
+  width: 0.7rem;
+  border-radius: 50%;
+  background-color: #FF6B82;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.boxOpen .form__radio-button{
+  left: 0;
+}
+
+.boxOpen .inner{
+  text-align: left;
+}
+.innerBox{
+  width: 60%;
+}
+.box1{
+  padding: 5px 10px;
+}
+.box1 .form__radio-label{
+  line-height: 1.25rem;
+}
+.box2{
+  padding: 10px;
+  font-size: small;
+}
+.sizeColor,
+.col1,
+.col2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.open{
+  display: flex;
+  flex-direction: row;
+}
+.close{
+  display: none;
+}
+
+.totalPrice{
+  display: flex;
+  justify-content: space-between;
+}
+.selectBox{
+  margin: 5px;
+  padding: 2px;
+  width: 5rem;
+  height: 1.5rem;
+  border: 1px solid #9F9F9F;
+  border-radius: 2px;
+}
+
+#btn{
+  color: #fff;
+  background-color: #FF6B82;
+  margin-top: 1.25rem;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+}
+
+
+footer{
+  text-align: center;
+}
