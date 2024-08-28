@@ -3,10 +3,6 @@
   html,
   body{
     margin: 0;
-  } 
-  html,
-  body{
-    font-size: 15px;
   }
 }
 
@@ -16,9 +12,6 @@
   body{
     font-size: 14px;
   }
-  #education .card{
-    margin: 0.5rem;
-  }
 }
 
 /*Big phones to small tablets from 577px to 768px ie small*/
@@ -27,15 +20,6 @@
   body{
     font-size: 13px;
   }
-  #education .card{
-    margin: 0;
-    height: 100%;
-  }
-  #education .card-body{
-    margin: 0;
-    padding: 15px;
-    font-size: 12px;
-  }
 }
 
 /*Small phones from 0 to 576px ie extra small*/
@@ -43,37 +27,5 @@
   html,
   body{
     font-size: 12px;
-  }
-  .btn{
-    padding: 8px 15px !important;
-  }
-  .accordion{
-    margin: 10px 20px;
-  }
-  h2{
-    margin-bottom: 1rem;
-  }
-  h2:after{
-    margin-top: 10px;
-  }
-  #projects p,
-  #contacts p{
-    font-size: 10px;
-  }
-  #projects img{
-    height: 60vh;
-  }
-  .mainBox{
-    margin: 2rem 1rem;
-  }
-  header nav{
-    margin: 2rem auto;
-  }
-  header a{
-    padding: 5px !important;
-  }
-  #education .card{
-    height: auto;
-    margin: 10px;
   }
 }
